@@ -116,10 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# <<< alias set >>>
-alias ca='conda activate'
-alias cel='conda env list'
-
 # <<< git >>>
 function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/'
