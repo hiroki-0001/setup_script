@@ -7,7 +7,7 @@ sudo apt-get install xsel
 ssh-keygen -t ed25519
 cat ~/.ssh/id_ed25519.pub | xsel --clipboard --input
 
-cat <<EOF > aaa
+cat <<EOF > config
 Host github github.com
     HostName ssh.github.com
     IdentityFile ~/.ssh/id_ed25519
