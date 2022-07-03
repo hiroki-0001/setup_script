@@ -23,6 +23,10 @@ Please apply GitHub
 
 https://github.com/
 
+Connection confirmation
+
+ssh -T git@github.com
+
 =========================================
 EOS
 
